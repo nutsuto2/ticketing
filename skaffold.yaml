@@ -1,9 +1,7 @@
 apiVersion: skaffold/v4beta5
 kind: Config
 deploy:
-  kubectl:
-    remoteManifests:
-      - ./infra/k8s/*
+  kubectl: {}
 build:
   local:
     push: false
