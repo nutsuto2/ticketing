@@ -1,6 +1,5 @@
 import request from 'supertest';
 import { app } from '../../app';
-import { response } from 'express';
 
 it('fails when an email that does not exist is supplied', async () => {
     await request(app)
