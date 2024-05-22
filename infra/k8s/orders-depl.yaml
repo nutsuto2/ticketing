@@ -38,7 +38,7 @@ metadata:
   name: orders-srv 
 spec:
   selector:
-    app: tickets
+    app: orders
   ports:
     - name: orders
       protocol: TCP

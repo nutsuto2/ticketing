@@ -45,7 +45,7 @@ it('reserves a ticket', async () => {
         price: 20
     });
     await ticket.save();
-
+    
     await request(app)
         .post('/api/orders')
         .set('Cookie', global.signin())
